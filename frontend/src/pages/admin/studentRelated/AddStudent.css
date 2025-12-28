@@ -1,0 +1,398 @@
+/* Enhanced Student Registration Form Styles - Compact Tabbed Version */
+
+.register {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+.registerForm {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.registerTitle {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab Styling */
+.MuiTabs-root {
+    background: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+}
+
+.MuiTab-root {
+    font-weight: 600 !important;
+    color: #495057 !important;
+    min-width: 120px !important;
+}
+
+.MuiTab-root.Mui-selected {
+    color: #667eea !important;
+    background: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.MuiTabs-indicator {
+    background-color: #667eea !important;
+    height: 3px !important;
+}
+
+.formSection {
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.formSection::-webkit-scrollbar {
+    width: 6px;
+}
+
+.formSection::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.formSection::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 3px;
+}
+
+.formSection::-webkit-scrollbar-thumb:hover {
+    background: #5a6fd8;
+}
+
+.formSection h3 {
+    color: #495057;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #667eea;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #f8f9fa;
+    z-index: 10;
+}
+
+.formSection h3::before {
+    content: "📋";
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.formRow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+}
+
+.formGroup label::after {
+    content: " *";
+    color: #dc3545;
+    display: none;
+}
+
+.formGroup label[for*="required"]::after,
+.formGroup label:has(+ input[required])::after {
+    display: inline;
+}
+
+.registerInput {
+    padding: 10px 12px;
+    border: 2px solid #e9ecef;
+    border-radius: 6px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.registerInput:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    transform: translateY(-1px);
+}
+
+.registerInput:hover {
+    border-color: #5a6fd8;
+}
+
+.registerInput[type="date"] {
+    cursor: pointer;
+}
+
+.registerInput[type="textarea"] {
+    resize: vertical;
+    min-height: 50px;
+}
+
+.registerInput[type="select"] {
+    cursor: pointer;
+}
+
+/* Button Styling */
+.registerButton {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.registerButton:hover:not(:disabled) {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+}
+
+.registerButton:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.registerButton.secondary {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    margin-top: 0;
+}
+
+.registerButton.secondary:hover:not(:disabled) {
+    background: linear-gradient(135deg, #5a6268 0%, #343a40 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(108, 117, 125, 0.3);
+}
+
+/* Navigation Buttons */
+.formSection:last-child .formRow {
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 15px;
+    align-items: end;
+}
+
+.formSection:last-child .formGroup:last-child {
+    grid-column: 3;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .register {
+        max-width: 1200px;
+        padding: 10px;
+    }
+    
+    .formRow {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .register {
+        max-width: 100%;
+        padding: 8px;
+    }
+    
+    .registerForm {
+        padding: 15px;
+    }
+    
+    .formSection {
+        max-height: 60vh;
+        padding: 12px;
+    }
+    
+    .formRow {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .registerTitle {
+        font-size: 1.8rem;
+    }
+    
+    .formSection:last-child .formRow {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .formSection:last-child .formGroup:last-child {
+        grid-column: 1;
+    }
+}
+
+@media (min-width: 1400px) {
+    .register {
+        max-width: 1600px;
+    }
+    
+    .formRow {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+}
+
+/* Section-specific styling */
+.formSection:nth-child(1) h3::before { content: "👤"; } /* Basic Information */
+.formSection:nth-child(2) h3::before { content: "🎓"; } /* Admission Details */
+.formSection:nth-child(3) h3::before { content: "📍"; } /* Contact Information & Transport */
+.formSection:nth-child(4) h3::before { content: "👨‍👩‍👧‍👦"; } /* Parent/Guardian & Emergency */
+.formSection:nth-child(5) h3::before { content: "🔐"; } /* System Access */
+
+/* Form validation styles */
+.registerInput:invalid {
+    border-color: #dc3545;
+}
+
+.registerInput:valid {
+    border-color: #28a745;
+}
+
+/* Loading state */
+.registerButton:disabled {
+    opacity: 0.7;
+}
+
+/* Success message styling */
+.success-message {
+    background: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+}
+
+/* Error message styling */
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+}
+
+/* Tab content animations */
+.formSection {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Compact form improvements */
+.formSection {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.formRow {
+    margin-bottom: 10px;
+}
+
+.formGroup label {
+    margin-bottom: 4px;
+}
+
+/* Progress indicator */
+.tab-progress {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.progress-step {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e9ecef;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.progress-step.active {
+    background: #667eea;
+    color: white;
+    transform: scale(1.1);
+}
+
+.progress-step.completed {
+    background: #28a745;
+    color: white;
+}
+
+/* Prevent horizontal scrolling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Better spacing for wide screens */
+@media (min-width: 1600px) {
+    .register {
+        max-width: 1800px;
+    }
+    
+    .formRow {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 25px;
+    }
+}

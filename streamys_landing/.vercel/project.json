@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_uEnfOJCU6pSdGJqiETfHP65E9mIO",
+  "orgId": "team_e8nXgPetB4FZBeHAyuD9WbDT",
+  "projectName": "streamys-landing",
+  "settings": {
+    "createdAt": 1759070240194,
+    "framework": "vite",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": "npm run build:client",
+    "outputDirectory": "dist/spa",
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "22.x"
+  }
+}

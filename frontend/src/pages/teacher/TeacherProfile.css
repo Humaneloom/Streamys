@@ -1,0 +1,283 @@
+/* Enhanced Teacher Profile Styles */
+
+.profileSection {
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.profileSection h5 {
+  position: sticky;
+  top: 0;
+  background: #f8fafc;
+  z-index: 10;
+  padding: 15px 0;
+  margin: -20px -20px 20px -20px;
+  padding-left: 20px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+/* Tab Styling */
+.MuiTabs-root {
+  background: #f8fafc;
+  border-radius: 16px 16px 0 0;
+}
+
+.MuiTab-root {
+  font-weight: 600 !important;
+  color: #64748b !important;
+  min-width: 120px !important;
+  text-transform: none !important;
+  font-size: 0.9rem !important;
+}
+
+.MuiTab-root.Mui-selected {
+  color: #667eea !important;
+  background: white;
+  border-radius: 8px 8px 0 0;
+}
+
+.MuiTabs-indicator {
+  background-color: #667eea !important;
+  height: 3px !important;
+}
+
+/* Profile Header */
+.profileHeader {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profileAvatar {
+  width: 120px !important;
+  height: 120px !important;
+  font-size: 3rem !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  margin: 0 auto 20px auto;
+}
+
+.profileName {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 10px !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.profileSubtitle {
+  font-size: 1.2rem !important;
+  opacity: 0.9;
+  margin-bottom: 20px !important;
+}
+
+.profileChips {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.profileChip {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(10px);
+  font-weight: 600;
+}
+
+/* Stats Cards */
+.statsCard {
+  background: white !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid #e2e8f0 !important;
+  padding: 24px !important;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.statsCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+.statsIcon {
+  font-size: 40px !important;
+  margin-bottom: 16px !important;
+}
+
+.statsNumber {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  color: #1e293b !important;
+  margin-bottom: 8px !important;
+}
+
+.statsLabel {
+  color: #64748b !important;
+  font-size: 0.9rem !important;
+  font-weight: 500;
+}
+
+/* Main Profile Card */
+.mainProfileCard {
+  background: white !important;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #e2e8f0 !important;
+  overflow: hidden;
+}
+
+/* Field Styling */
+.fieldContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.fieldContainer:hover {
+  border-color: #667eea;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+.fieldIcon {
+  margin-right: 16px;
+  color: #667eea;
+  min-width: 24px;
+}
+
+.fieldLabel {
+  color: #64748b !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  margin-bottom: 4px !important;
+  min-width: 200px;
+}
+
+.fieldValue {
+  font-weight: 600 !important;
+  color: #1e293b !important;
+  flex: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profileSection {
+    padding: 15px;
+  }
+  
+  .profileSection h5 {
+    margin: -15px -15px 15px -15px;
+    padding-left: 15px;
+  }
+  
+  .profileName {
+    font-size: 2rem !important;
+  }
+  
+  .profileChips {
+    gap: 10px;
+  }
+  
+  .statsCard {
+    padding: 20px !important;
+  }
+  
+  .fieldContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .fieldLabel {
+    min-width: auto;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profileSection {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+/* Custom Scrollbar */
+.mainProfileCard ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.mainProfileCard ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.mainProfileCard ::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 3px;
+}
+
+.mainProfileCard ::-webkit-scrollbar-thumb:hover {
+  background: #5a6fd8;
+}
+
+/* Loading States */
+.loadingShimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Empty State Styling */
+.emptyState {
+  text-align: center;
+  padding: 40px 20px;
+  color: #64748b;
+}
+
+.emptyStateIcon {
+  font-size: 48px !important;
+  color: #cbd5e1;
+  margin-bottom: 16px;
+}
+
+/* Hover Effects */
+.fieldContainer:hover .fieldIcon {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.statsCard:hover .statsIcon {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}

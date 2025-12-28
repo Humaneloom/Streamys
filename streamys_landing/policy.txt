@@ -1,0 +1,160 @@
+Terms of Service 
+Welcome to Streamys. By accessing or using our website (the “Site”) and services 
+(collectively, the “Services”), you agree to comply with and be bound by these Terms of 
+Service (“Terms”). Please read them carefully. 
+1. Acceptance of Terms 
+By using our Site or Services, you confirm that you are legally capable of entering into 
+binding agreements. If you do not agree to these Terms, you may not access or use the 
+Services. 
+2. Services Provided 
+Streamys is a cloud-based platform designed to assist schools, colleges, and educational 
+institutions in managing administrative tasks efficiently. The Services include, but are not 
+limited to, student management, fee management, library management, HR management, 
+and messaging/communication tools. 
+3. Subscription Plans 
+Streamys offers four subscription plans, each with different levels of features and usage 
+limits: 
+1. Lite Plan – Designed for small institutions with limited users and basic features. 
+2. Standard Plan – Ideal for medium-sized institutions with additional features and 
+higher user limits. 
+3. Professional Plan – Tailored for larger institutions needing advanced functionality. 
+4. Enterprise Plan – Comprehensive solution for large institutions requiring full access 
+and priority support. 
+Plan Terms: 
+● Plan Selection: You must select a Plan during registration. 
+● Plan Features & Limits: Each Plan has specific features and user limits. Using 
+services beyond Plan limits may incur extra charges. 
+● Upgrades & Downgrades: You may upgrade or downgrade your Plan. Upgrades 
+take effect immediately, while downgrades may take effect at the next billing cycle. 
+4. Account Registration 
+● Users must create an account to access any Plan. 
+● You must provide accurate, current, and complete information during registration. 
+● You are responsible for maintaining the confidentiality of your login credentials and all 
+activity under your account. 
+5. Billing and Payments 
+● Subscription fees are charged according to your selected Plan and billing cycle ( 
+yearly). 
+● Payments are non-refundable unless explicitly stated or required by law. 
+● Streamys reserves the right to update pricing with prior notice. 
+● Access to the Services may be suspended for failed or delayed payments until 
+resolved. 
+6. Cancellations and Refunds 
+● You may cancel your subscription at any time; cancellation will take effect at the end 
+of your current billing period. 
+● No partial refunds are provided for unused portions of a subscription period. 
+● Streamys reserves the right to suspend or terminate subscriptions for violations of 
+these Terms. 
+7. User Responsibilities 
+You agree to: 
+● Use the Services in compliance with applicable laws and regulations. 
+● Not misuse or interfere with the proper functioning of the Services. 
+● Not upload, share, or transmit any content that is unlawful, harmful, or infringes 
+third-party rights. 
+8. Intellectual Property 
+● All content, software, trademarks, logos, and materials on the Site are the property of 
+Streamys or its licensors. 
+● You may not copy, modify, distribute, or create derivative works without prior written 
+permission. 
+9. Third-Party Services 
+The Site may contain links to third-party websites or services. Streamys is not responsible 
+for the content, privacy policies, or practices of any third-party sites. 
+10. Privacy & Data Protection 
+Your use of the Site is subject to our Privacy Policy, which explains how we collect, use, 
+and protect your data. By using the Services, you consent to such practices. 
+11. Termination 
+● Streamys may suspend or terminate your access for violation of these Terms, failure 
+to pay subscription fees, or misuse of the Services. 
+● Upon termination, your right to access the Services immediately ceases. 
+12. Disclaimers 
+● The Services are provided “as-is” and “as-available” without warranties of any kind. 
+● Streamys does not guarantee uninterrupted access, error-free performance, or the 
+accuracy of content. 
+13. Limitation of Liability 
+● To the maximum extent permitted by law, Streamys shall not be liable for any direct, 
+indirect, incidental, or consequential damages arising from your use of the Services 
+or subscription plans. 
+14. Indemnification 
+You agree to indemnify and hold harmless Streamys, its affiliates, officers, and employees 
+from any claims, damages, or expenses arising from your use of the Services or violation of 
+these Terms. 
+15. Governing Law 
+These Terms are governed by the laws of India. Any disputes will be subject to the exclusive 
+jurisdiction of the courts in Bengaluru, Karnataka. 
+16. Changes to Terms 
+Streamys may update these Terms from time to time. Updated Terms will be effective 
+immediately upon posting on the Site. Continued use of the Services constitutes acceptance 
+of the updated Terms. 
+17. Contact Us 
+For questions or concerns about these Terms, please contact us at: 
+Address: K No 42/2, 2nd Main, Venkoji Rao, 6th HSR Layout, Bommanahalli Post, 
+Bengaluru – 560068 
+Mobile: +91 9731361100 
+Email: Contact@streamys.in
+Privacy Policy 
+At Streamys, we respect your privacy and are committed to protecting your personal 
+information. This Privacy Policy explains how we collect, use, and safeguard the data of 
+users who access our website and cloud-based services (collectively, the “Services”). By 
+using our Services, you consent to the practices described here. 
+1. Information We Collect 
+a. Personal Information: 
+We may collect personal information that you provide voluntarily, including: 
+● Name, email address, mobile number, and address 
+● Organization or institution details 
+● Account login credentials and subscription preferences 
+b. Usage Information: 
+We automatically collect information about your use of the Services, including: 
+● IP address, browser type, and device information 
+● Pages visited and actions performed on the Site 
+● System logs and error reports 
+c. Payment Information: 
+If you subscribe to a Plan, we collect payment details such as billing information and 
+transaction records. 
+2. How We Use Your Information 
+We use your information to: 
+● Provide, maintain, and improve our Services 
+● Process subscriptions, payments, and billing 
+● Communicate important updates, alerts, and notifications 
+● Personalize user experience and provide customer support 
+● Ensure security and prevent fraudulent activities 
+3. Sharing Your Information 
+We do not sell or rent your personal information. We may share your data only in the 
+following circumstances: 
+● With service providers: To process payments, host the platform, or provide support 
+services 
+● For legal compliance: When required by law or to protect our legal rights 
+● Business transfers: In case of mergers, acquisitions, or sale of assets 
+4. Data Security 
+We implement reasonable technical, administrative, and physical safeguards to protect your 
+information against unauthorized access, disclosure, or destruction. However, no method of 
+transmission over the Internet or electronic storage is completely secure, so we cannot 
+guarantee absolute security. 
+5. Data Retention 
+We retain personal data only as long as necessary to provide our Services, comply with 
+legal obligations, resolve disputes, and enforce agreements. 
+6. Your Rights 
+You have the right to: 
+● Access and request a copy of your personal information 
+● Correct or update your personal information 
+● Request deletion of your data, subject to legal and contractual obligations 
+● Opt-out of promotional communications 
+To exercise your rights, please contact us using the details below. 
+7. Cookies and Tracking Technologies 
+We may use cookies and similar technologies to enhance your experience on our Site, 
+analyze trends, and gather usage information. You can configure your browser to refuse 
+cookies, but this may affect the functionality of the Services. 
+8. Children’s Privacy 
+Our Services are intended for use by educational institutions and not for children under the 
+age of 13. We do not knowingly collect personal information from children. 
+9. Third-Party Links 
+The Site may contain links to third-party websites. We are not responsible for the privacy 
+practices or content of these websites. 
+10. Changes to Privacy Policy 
+We may update this Privacy Policy from time to time. Updated versions will be posted on the 
+Site with the effective date. Your continued use of the Services constitutes acceptance of 
+the updated Privacy Policy. 
+11. Contact Us 
+For questions, concerns, or to exercise your privacy rights, contact us at: 
+Address: K No 42/2, 2nd Main, Venkoji Rao, 6th HSR Layout, Bommanahalli Post, 
+Bengaluru – 560068 
+Mobile: +91 9731361100 
+Email: Contact@streamys.in 
